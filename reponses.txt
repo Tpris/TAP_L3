@@ -1,0 +1,102 @@
+# Ceci est le fichier de vos réponses qui sera analysé et noté.
+# Chacune de vos réponses doit spécifier le code de la réponse
+# suivi du signe '=' et d'une suite de valeurs séparées par un ou
+# plusieurs espaces, le tout sur une seule ligne. Il est important
+# de mettre un espace autour du signe '='.
+# Par exemple:
+#
+# R3b = 25 -5 8.6
+# L1 = (3, 2) (4,2)
+# A = 3-5 7-9
+# C = s u v t        # ceci est un commentaire qui sera ignoré
+#
+# Seul ce type de ligne a une importance (et sera analysée).
+# L'ordre initial des lignes doit être respecté. Le texte situé à
+# la fin d'une ligne suivant un '#' est considéré comme un
+# commentaire.
+
+# Q1a. Distance entre v_0 et v_1.
+# 1 valeur attendue
+R1a = 24
+
+# Q1b. Distance entre v_0 et v_2.
+# 1 valeur attendue
+R1b = 14
+
+# Q2a. Les deux points les plus proches.
+# 2 indices attendus
+R2a = 3 6
+
+# Q2b. Distance entre les deux points les plus proches.
+# 1 valeur attendue
+R2b = 1
+
+# Q2c. Triangle de périmètre minimum.
+# 3 indices attendus
+R2c = 3 5 6
+
+# Q3a. Trois points alignés.
+# 3 indices attendus
+R3a = 6 3 5
+
+# Q3b. Plus grande suite de points alignés.
+# au moins 3 indices attendus
+R3b = 6 3 5 0 4 1
+
+# Q3c. Les deux points A et B.
+# 2 points attendus ou "impossible"
+R3c = impossible
+
+# Q4a. Tournée produite par l'algorithme glouton depuis v_0.
+# 8 indices attendus (pas besoin du point retour)
+R4a = 0 5 3 6 7 2 4 1
+
+# Q4b. Longueur de la tournée.
+# 1 valeur attendue
+R4b = 66
+
+# Q5. Lignes de la matrice des distances.
+#    0  1  2  3  4  5  6
+L1 = 24
+L2 = 14 20
+L3 = 7  31 11
+L4 = 22 2  18 29
+L5 = 4  28 16 5  26
+L6 = 8  32 12 1  30 6
+L7 = 13 23 3  10 21 15  9
+
+# Q6a. Liste des arêtes d'un arbre couvrant de poids minimum.
+# 7 arêtes attendues, exemple: 3-4 6-8 ...
+R6a = 3-6 1-4 2-7 0-5 3-5 6-7 2-4
+
+# Q6b. Poids de l'arbre couvrant.
+# 1 valeur attendue
+R6b = 42
+
+# Q6c. Nombre d'arêtes qui ne sont pas dans l'arbre.
+# 1 valeur attendue
+R6c = 21
+
+# Q6d. L'arête de poids minimum qui n'est pas dans l'arbre.
+# 1 arête attendue, exemple: 2-7
+R6d = 5-6
+
+# Q7a. Tournée obtenue par un DFS de racine v_0.
+# 8 indices attendus dont le premier est 0
+R7a = 0 5 3 6 7 2 4 1
+
+# Q7b. Longueur de cette tournée.
+# 1 valeur attendue
+R7b = 66
+
+# Q8a. Indices des points dans l'ordre d'insertion (après les plus proches).
+# 6 indices attendus
+R8a = 3 6 7 2 4 1
+
+# Q8b. Tournée résultante
+# 8 indices attendus
+R8b = 0 5 3 6 7 2 4 1
+
+# Q8c. Longueur de cette tournée.
+# 1 valeur attendue
+R8c = 66
